@@ -1,52 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Шапка сайта</title>
-<link rel="stylesheet" href="./css/style.css">
+  <title>Макет1</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <section class="cards-products">
-    <div class="card">
-      <div class="card-preview">
-        <img class="card-preview__img" src="./img/car.jpeg" alt="">
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
+        <img src="./img/logo.png" alt="Логотип">
+
+        <nav>
+          <ul class="navigations">
+            <li class="navigations__item"><a href="link">Услуги   </a></li>
+            <li navigations__itemclass="navigations__item"><a href="link">Продукция </a></li>
+            <li class="navigations__item"><a href="link">О компании</a></li>
+            <li class="navigations__item"><a href="link">Портфолио</a></li>
+            <li class="navigations__item"><a href="link">Вопрос-ответ</a></li>
+            <li class="navigations__item"><a href="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="buttons">
+          <button class="buttons-one">
+            <img src="./img/sloy.svg" alt="иконка">Заявка на замер
+          </button>
+          <button class="buttons-two">
+            <img src="./img/sloy2.svg" alt="">
+            Заказать расчет</button>
+        </div>
       </div>
-      <div class="card-title">
-        Заголовок
-      </div>
-      <div class="card-description">
-        Описание товара
-      </div>
-      <button class="card-button">
-        Добавить в корзину
-      </button>
     </div>
-
-    <div class="card">
-      <div class="card-preview">
-        <img class="card-preview__img" src="./img/car.jpeg" alt="Машина">
-      </div>
-
-      <div class="card-title">
-        Заголовок
-      </div>
-
-      <div class="card-description">
-        Описание товара
-      </div>
-
-      <button class="card-button">
-        Добавить в корзину
-      </button>
-    </div>
-  </section>
-  
-  <section class="about-company">
-    <p class="about-company__description">
-      Описание нашей компании
-    </p>
-  </section>
+  </header>
 </body>
 </html>

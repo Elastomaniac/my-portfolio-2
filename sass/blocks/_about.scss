@@ -1,8 +1,0 @@
-.about-company {
-  background-color: black;
-  
-  &__description {
-  color: $name;
-  @include formatText;
-  }
-}

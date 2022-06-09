@@ -1,32 +1,40 @@
-.card {
-  width: 250px;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.card-preview {
-  height: 150px;
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
 }
 
-.card-preview__img {
-  height: 100%;
-  width: 100%;
+.navigations {
+  display: flex;
 }
 
-.card-title {
-  color: blue;
+.navigations__item {
+  margin-right: 27px;
 }
 
-.card-description {
-  font-size: 33px;
-  line-height: 40px;
+a {
+  color: #000000;
 }
 
-.about-company {
-  background-color: black;
+.buttons-one {
+  background-color: #EF7F04;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  margin-right: 14px;
 }
 
-.about-company__description {
-  color: blue;
-  font-size: 33px;
-  line-height: 40px;
+.buttons-two {
+  background-color: #3B3A63;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 3px;
 }
-/*# sourceMappingURL=style.css.map */
