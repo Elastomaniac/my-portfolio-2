@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;CAkBb;;AAhBE,AAAD,aAAS,CAAA;EACP,MAAM,EAAE,KAAK;CAMd;;AAJE,AAAD,kBAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACZ;;AAGF,AAAD,WAAO,CAAC;EACR,KAAK,EDbA,IAAI;CCcR;;AAEA,AAAD,iBAAa,CAAC;EDbd,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CCchB;;AClBH,AAAA,cAAc,CAAC;EACb,gBAAgB,EAAE,KAAK;CAMxB;;AAJE,AAAD,2BAAc,CAAC;EACf,KAAK,EFJA,IAAI;EAGT,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CEEhB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/blocks/_cards.scss",
+        "../sass/blocks/_about.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

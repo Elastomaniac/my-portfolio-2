@@ -1,4 +1,7 @@
-.text {
-  font-size: 33px;
-  color: green;
-}
+// @mixin formatText {
+//   font-size: 33px;
+//   line-height: 40px;
+// }
+@import './base/variables'
+@import './blocks/cards';
+@import './blocks/about';

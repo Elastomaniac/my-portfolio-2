@@ -1,0 +1,32 @@
+.card {
+  width: 250px;
+}
+
+.card-preview {
+  height: 150px;
+}
+
+.card-preview__img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-title {
+  color: blue;
+}
+
+.card-description {
+  font-size: 33px;
+  line-height: 40px;
+}
+
+.about-company {
+  background-color: black;
+}
+
+.about-company__description {
+  color: blue;
+  font-size: 33px;
+  line-height: 40px;
+}
+/*# sourceMappingURL=style.css.map */

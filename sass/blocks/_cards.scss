@@ -1,0 +1,20 @@
+.card {
+  width: 250px;
+  
+  &-preview{
+    height: 150px;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-title {
+  color: $name;
+  }
+
+  &-description {
+    @include formatText;
+  }
+}

@@ -1,0 +1,13 @@
+.card {
+  width: 250px;
+}
+
+.card-preview {
+  height: 150px;
+}
+
+.card-preview__img {
+  height: 100%;
+  width: 100%;
+}
+/*# sourceMappingURL=cards.css.map */
