@@ -1,3 +1,7 @@
+body {
+  background: #F2F2F2;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -12,15 +16,21 @@
 
 .navigations {
   display: flex;
+  margin-bottom: 37.5px;
 }
 
 .navigations__item {
   margin-right: 27px;
   padding: 40px 0px 0px 0px;
+  font-size: 16px;
 }
 
 .line:hover {
   border-top: 5px solid #EF7F04;
+}
+
+.line {
+  border-top: 5px solid #ffffff;
 }
 
 a {
@@ -44,21 +54,55 @@ a {
   border-radius: 3px;
 }
 
-h2 {
+
+
+.title-sections {
   font-weight: 700;
   color: #2F2F51;
   text-align: center;
-}
-.our-services__card {
-  width: 595px;
-  height: 268px;
-  left: 360px;
-  top: 804.75px;
+  font-size: 24px;
+  margin-bottom: 48px;
 }
 
-.our-services__card_icon{
-  left: 21.36%;
-  right: 75.11%;
-  top: 14.23%;
-  bottom: 84.56%;
+.our-services {
+display: flex;
+flex-wrap:wrap;
+}
+
+.our-services__card {
+  width: 49%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-right: 10.5px;
+  margin-bottom: 10.25px;
+  padding-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-services__card-header {
+display: flex;
+align-items: center;
+color: #2F2F51;
+font-weight: 700;
+font-size: 24px;
+margin-bottom: 37px;
+}
+
+.our-services__card_name{
+font-weight: 700;
+font-size: 24px;
+color: #2F2F51;
+margin-left: 20px;
+width: 220px;
+}
+
+.our-services__card_icon {
+  padding-left: 53px;
+}
+
+.our-services__card_text {
+padding-left: 53px;
+width: 220px;
+padding-bottom: 30px;
 }
