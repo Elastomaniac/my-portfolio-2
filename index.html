@@ -10,73 +10,75 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header-block">
-        <img src="./img/logo.png" alt="Логотип">
+    <div class="header__container container">
+      <img src="./img/logo.png" alt="Логотип" />
 
-        <nav>
-          <ul class="navigations">
-            <li class="navigations__item line"><a href="link">Услуги   </a></li>
-            <li class="navigations__item line"><a href="link">Продукция</a></li>
-            <li class="navigations__item line"><a href="link">О компании</a></li>
-            <li class="navigations__item line"><a href="link">Портфолио</a></li>
-            <li class="navigations__item line"><a href="link">Вопрос-ответ</a></li>
-            <li class="navigations__item line"><a href="link">Контакты</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <ul class="header__navigation">
+          <li class="header__navigation-item"><a class="link" href="link">Услуги   </a></li>
+          <li class="header__navigation-item"><a class="link" href="link">Продукция</a></li>
+          <li class="header__navigation-item"><a class="link" href="link">О компании</a></li>
+          <li class="header__navigation-item"><a class="link" href="link">Портфолио</a></li>
+          <li class="header__navigation-item"><a class="link" href="link">Вопрос-ответ</a></li>
+          <li class="header__navigation-item"><a class="link" href="link">Контакты</a></li>
+        </ul>
+      </nav>
 
-        <div class="buttons">
-          <button class="buttons-one">
-            <img src="./img/sloy.svg" alt="иконка">Заявка на замер
-          </button>
-          <button class="buttons-two">
-            <img src="./img/sloy2.svg" alt="">
-            Заказать расчет</button>
-        </div>
+      <div class="buttons">
+        <button class="button-request">
+          <img src="./img/request.svg" alt="request" />
+          
+          <span>Заявка на замер</span>
+        </button>
+        
+        <button class="button-order">
+          <img src="./img/order.svg" alt="order" />
+          <span>Заказать расчет</span></button>
       </div>
     </div>
   </header>
   
-  <!-- <section class="services"> -->
-  <h2 class="title-sections">Наши услуги</h2>
-  <div class="our-services">
-    
-    
-    <div class="our-services__card">
-      <div class="our-services__card-header">
-        <div class="our-services__card_icon"><img src="./img/1-4.svg" alt="иконка"></div>
-        <h3 class="our-services__card_name">Установка пластиковых окон
-        </h3>
-      </div>
-      <p class="our-services__card_text">Устанавливаем пластиковые окна Rehau от проверенного производитией гарантией качества</p>
-    </div>
+  <div class="container services__container">
+    <h2 class="services__title">Наши услуги</h2>
+    <div class="services__card-list">
+      <div class="services__card">
+        <div class="services__card-header">
+          <div class="services__card_icon">
+            <img src="./img/1-4.svg" alt="иконка" />
+          </div>
 
-    <div class="our-services__card">
-      <div class="our-services__card-header">
-        <div class="our-services__card_icon"><img src="./img/2-4.svg" alt="иконка"></div>
-        <h3 class="our-services__card_name">Остекление балконов и лоджий          
-        </h3>
-      </div>
-      <p class="our-services__card_text">Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
-    </div>
+          <h3 class="services__card_name">Установка пластиковых окон</h3>
+        </div>
 
-    <div class="our-services__card">
-      <div class="our-services__card-header">
-        <div class="our-services__card_icon"><img src="./img/3-4.svg" alt="иконка"></div>
-        <h3 class="our-services__card_name">Остекление коттеджей и дач
-        </h3>
+        <p class="services__card_text">Устанавливаем пластиковые окна Rehau от проверенного производитией гарантией качества</p>
       </div>
-      <p class="our-services__card_text">Остекление и отделка под ключ:от коттеджей и дач до терраси беседок. Выделяем личноготехнолога под каждый объект</p>
-    </div>
 
-    <div class="our-services__card">
-      <div class="our-services__card-header">
-        <div class="our-services__card_icon"><img src="./img/4-4.svg" alt="иконка"></div>
-        <h3 class="our-services__card_name">Остеклениекорпоративных объектов</h3>
+      <div class="services__card">
+        <div class="services__card-header">
+          <div class="services__card_icon"><img src="./img/2-4.svg" alt="иконка"></div>
+          <h3 class="services__card_name">Остекление балконов и лоджий          
+          </h3>
+        </div>
+        <p class="services__card_text">Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш. Беремся за сложные объекты</p>
       </div>
-      <p class="our-services__card_text">Реализуем сложные проектыпо остеклению торговых центров,ресторанов, производственных помещений и офисов</p>
+
+      <div class="services__card">
+        <div class="services__card-header">
+          <div class="services__card_icon"><img src="./img/3-4.svg" alt="иконка"></div>
+          <h3 class="services__card_name">Остекление коттеджей и дач
+          </h3>
+        </div>
+        <p class="services__card_text">Остекление и отделка под ключ:от коттеджей и дач до терраси беседок. Выделяем личноготехнолога под каждый объект</p>
+      </div>
+
+      <div class="services__card">
+        <div class="services__card-header">
+          <div class="services__card_icon"><img src="./img/4-4.svg" alt="иконка"></div>
+          <h3 class="services__card_name">Остекление корпоративных объектов</h3>
+        </div>
+        <p class="services__card_text">Реализуем сложные проектыпо остеклению торговых центров,ресторанов, производственных помещений и офисов</p>
+      </div>
     </div>
   </div>
-<!-- </section> -->
 </body>
 </html>
