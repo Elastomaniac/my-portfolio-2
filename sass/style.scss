@@ -134,3 +134,69 @@ a {
       padding-bottom: 30px;
       }
 }
+
+.production {
+  box-sizing: $containerWidth;
+
+  &__title {
+    margin-top: 102px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: $colorDarkBlue;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 42px;
+    }
+  &__item{
+    width: 130.91px;
+    height: 39px;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 10px;
+  }
+    
+  &__item:hover {
+      background: $colorOrange;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21px;
+      color: white;
+  }
+  &__link:hover {
+    color: white;
+  }
+}
+
+.production {
+   &__card{
+    width: 1200px;
+    height: 460px;
+    display: flex;
+  }
+
+  &__image {
+    width: 570px;
+    height: 460px;
+    border-radius: 3px;
+  }
+  &__example {
+    display: flex;
+    flex-direction: row;
+  }
+  &__example-title {
+    color: $colorOrange;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
