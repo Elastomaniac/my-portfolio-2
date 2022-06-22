@@ -17,6 +17,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
+  background-color: #fff;
 }
 
 .header__navigation {
@@ -60,6 +62,118 @@ a {
   font-size: 13px;
   padding: 10px 18px;
   border-radius: 3px;
+}
+
+.main {
+  background-image: url("../img/mainFon.jpeg");
+  padding-bottom: 65px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 130px;
+}
+
+.main-info__title {
+  color: #EF7F04;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.left {
+  padding: 60px 52px 0px 85px;
+}
+
+.left__advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right__feedback {
+  background: #fff;
+  border-radius: 10px;
+  width: 405px;
+  height: 430;
+  padding: 43px 40px 65px 40px;
+  text-align: center;
+}
+
+.right__feedback__title {
+  font-size: 18px;
+  color: #2F2F51;
+}
+
+.right__feedback-inputs {
+  margin-top: 27px;
+  margin-bottom: 24px;
+}
+
+.right__feedback-button {
+  padding: 19px 40px;
+  background: #EF7F04;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.input__item {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+  background: #E2E2E2;
+  border-radius: 3px;
+  padding-left: 16px;
+}
+
+.input__item_check {
+  width: 25px;
+  height: 25px;
+}
+
+.input__item::-webkit-input-placeholder {
+  color: #424268;
+}
+
+.input__item:-ms-input-placeholder {
+  color: #424268;
+}
+
+.input__item::-ms-input-placeholder {
+  color: #424268;
+}
+
+.input__item::placeholder {
+  color: #424268;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.input__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 13.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input__checkbox label {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 10px;
+  color: #000;
 }
 
 .services__title {
@@ -187,7 +301,7 @@ a {
   color: white;
 }
 
-.production__link:hover {
+.production__item:hover a {
   color: white;
 }
 
@@ -209,10 +323,10 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .production__example-title {
