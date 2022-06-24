@@ -13,12 +13,14 @@ body {
 }
 
 .header {
+  width: 100%;
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: #fff;
+    width: 100%;
   }
 
   &__navigation {
@@ -85,19 +87,36 @@ a {
 
 .left {
   padding: 60px 52px 0px 85px;
+  position: relative;
   &__advantages {
     display: flex;
+    position: absolute;
+    top: 180px;
+  }
+  // как разместить текст
+  &__title {
+    font-weight: 100
+    font-size: 36px
+    line-height: 42.19px
   }
 }
 
 .right{
   &__feedback {
+    position: relative;
     background: #fff;
     border-radius: 10px;
-    width: 405px;
-    height: 430;
+    width: 406px;
+    height: 428px;
     padding: 43px 40px 65px 40px;
     text-align: center;
+    // картинка выбивается по размеру
+    &_image {
+      position: absolute;
+      left: -102px;
+      bottom: -80px;
+      min-width: 745px;
+    }
     &__title {
       font-size: 18px;
       color: $colorDarkBlue;

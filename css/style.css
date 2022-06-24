@@ -88,21 +88,36 @@ a {
 
 .left {
   padding: 60px 52px 0px 85px;
+  position: relative;
 }
 
 .left__advantages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  top: 180px;
+}
+
+.left__advantages__title {
+  font-weight: 100 fontSize 36px Line height 42.19px;
 }
 
 .right__feedback {
+  position: relative;
   background: #fff;
   border-radius: 10px;
-  width: 405px;
-  height: 430;
+  width: 406px;
+  height: 428px;
   padding: 43px 40px 65px 40px;
   text-align: center;
+}
+
+.right__feedback_image {
+  position: absolute;
+  left: -102px;
+  bottom: -80px;
+  min-width: 745px;
 }
 
 .right__feedback__title {
