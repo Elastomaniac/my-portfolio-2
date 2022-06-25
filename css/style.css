@@ -289,4 +289,7 @@ input {
 }
 .production__properties {
   font-size: 18px;
+}
+.production__properties_boldfont {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

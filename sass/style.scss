@@ -316,5 +316,8 @@ input {
   }
   &__properties {
     font-size: 18px;
+    &_boldfont {
+      font-weight: 700;
+    }
   }
 }
