@@ -10,10 +10,10 @@ body {
 .container {
   width: $containerWidth;
   margin: 0 auto;
+  // width: 100%;
 }
 
 .header {
-  width: 100%;
   &__container {
     display: flex;
     justify-content: space-between;
@@ -95,9 +95,9 @@ a {
   }
   // как разместить текст
   &__title {
-    font-weight: 100
-    font-size: 36px
-    line-height: 42.19px
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 42.19px;
   }
 }
 
@@ -301,6 +301,11 @@ input {
   &__example {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 511px;
+    height: 335px;
+    padding-left: 35px;
+    padding-top:74px;
   }
   &__example-title {
     color: $colorOrange;
