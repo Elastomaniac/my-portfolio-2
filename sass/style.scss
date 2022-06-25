@@ -10,7 +10,7 @@ body {
 .container {
   width: $containerWidth;
   margin: 0 auto;
-  // width: 100%;
+  width: 100%;
 }
 
 .header {
@@ -21,6 +21,7 @@ body {
     position: fixed;
     background-color: #fff;
     width: 100%;
+    z-index: 1;
   }
 
   &__navigation {
@@ -93,7 +94,6 @@ a {
     position: absolute;
     top: 180px;
   }
-  // как разместить текст
   &__title {
     font-weight: 100;
     font-size: 36px;
@@ -110,7 +110,6 @@ a {
     height: 428px;
     padding: 43px 40px 65px 40px;
     text-align: center;
-    // картинка выбивается по размеру
     &_image {
       position: absolute;
       left: -102px;
@@ -177,6 +176,8 @@ input {
     font-size: 24px;
     font-weight: 700;
     color: $colorDarkBlue;
+    margin-top: 67px;
+    margin-bottom: 48px;
   }
 
   &__card-list{
@@ -312,5 +313,8 @@ input {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
+  }
+  &__properties {
+    font-size: 18px;
   }
 }
