@@ -10,6 +10,7 @@ body {
 .container {
   width: $containerWidth;
   margin: 0 auto;
+  width: 100%;
 }
 
 .header {
@@ -17,6 +18,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
   }
 
   &__navigation {
@@ -62,12 +67,117 @@ a {
   border-radius: 3px;
 }
 
+.main {
+  background-image: url("../img/mainFon.jpeg");
+  padding-bottom: 65px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.main-info {
+  display: flex;
+  padding-top: 130px;
+    &__title {
+      color: $colorOrange;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+  }
+}
+
+.left {
+  padding: 60px 52px 0px 85px;
+  position: relative;
+  &__advantages {
+    display: flex;
+    position: absolute;
+    top: 180px;
+  }
+  &__title {
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 42.19px;
+  }
+}
+
+.right{
+  &__feedback {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    width: 406px;
+    height: 428px;
+    padding: 43px 40px 65px 40px;
+    text-align: center;
+    &_image {
+      position: absolute;
+      left: -102px;
+      bottom: -80px;
+      min-width: 745px;
+    }
+    &__title {
+      font-size: 18px;
+      color: $colorDarkBlue;
+    }
+    &-inputs {
+      margin-top: 27px;
+      margin-bottom: 24px;
+    }
+    &-button {
+      padding: 19px 40px;
+      background: $colorOrange;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}
+
+.input__item {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+  background: #E2E2E2;
+  border-radius: 3px;
+  padding-left: 16px;
+  &_check {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.input__item::placeholder {
+  color: #424268;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.input__checkbox {
+  display: flex;
+  margin-top: 13.5px;
+  align-items: center;
+  & label {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+    color: #000;
+
+  }
+}
+
 .services {
   &__title {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
     color: $colorDarkBlue;
+    margin-top: 67px;
+    margin-bottom: 48px;
   }
 
   &__card-list{
@@ -133,4 +243,81 @@ a {
       width: 220px;
       padding-bottom: 30px;
       }
+}
+
+.production {
+  box-sizing: $containerWidth;
+
+  &__title {
+    margin-top: 102px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: $colorDarkBlue;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin-top: 42px;
+    }
+  &__item{
+    width: 130.91px;
+    height: 39px;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 10px;
+  }
+    
+  &__item:hover {
+      background: $colorOrange;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21px;
+      color: white;
+      a {
+      color: white;
+      }
+  }
+}
+
+.production {
+   &__card{
+    width: 1200px;
+    height: 460px;
+    display: flex;
+  }
+
+  &__image {
+    width: 570px;
+    height: 460px;
+    border-radius: 3px;
+  }
+  &__example {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 511px;
+    height: 335px;
+    padding-left: 35px;
+    padding-top:74px;
+  }
+  &__example-title {
+    color: $colorOrange;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  &__properties {
+    font-size: 18px;
+    &_boldfont {
+      font-weight: 700;
+    }
+  }
 }
