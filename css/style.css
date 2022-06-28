@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: min-width 1200px;
   margin: 0 auto;
   width: 100%;
 }
@@ -224,7 +224,7 @@ input {
 }
 
 .production {
-  box-sizing: 1200px;
+  box-sizing: min-width 1200px;
 }
 .production__title {
   margin-top: 102px;
@@ -292,4 +292,50 @@ input {
 }
 .production__properties_boldfont {
   font-weight: 700;
+}
+
+.quality {
+  margin-bottom: 300px;
+}
+.quality__top {
+  background-image: url("../img/fon.jpeg");
+  padding: 35px 0px 70px 0px;
+  background-repeat: no-repeat;
+  margin-top: 54px;
+  background-size: cover;
+  margin-bottom: 56px;
+}
+.quality__list {
+  display: flex;
+  justify-content: space-around;
+}
+.quality__list-item {
+  text-align: center;
+}
+.quality__title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.quality__btn {
+  background-color: #3B3A63;
+  color: white;
+  border-radius: 3px;
+  padding: 12px 35px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.quality__btn img {
+  color: white;
+  margin-right: 22px;
+}
+
+.item__icon {
+  margin-bottom: 40px;
+  height: 90px;
+}
+
+.item__description {
+  color: white;
+  width: 170px;
 }/*# sourceMappingURL=style.css.map */

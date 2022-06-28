@@ -1,7 +1,7 @@
 $colorOrange: #EF7F04;
 $colorBlue: #3B3A63;
 $colorDarkBlue: #2F2F51;
-$containerWidth: 1200px;
+$containerWidth: min-width 1200px;
 
 body {
   background: #F2F2F2;
@@ -320,4 +320,50 @@ input {
       font-weight: 700;
     }
   }
+}
+
+.quality {
+  margin-bottom: 300px;
+  &__top {
+    background-image: url("../img/fon.jpeg");
+    padding: 35px 0px 70px 0px;
+    background-repeat: no-repeat;
+    margin-top: 54px;
+    background-size: cover;
+    margin-bottom: 56px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    &-item {
+      text-align: center;
+    }
+  }
+  &__title {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  &__btn {
+    background-color: $colorBlue;
+    color: white;
+    border-radius: 3px;
+    padding: 12px 35px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    & img {
+      color: white;
+      margin-right: 22px;
+    }
+  }
+}
+
+.item__icon {
+  margin-bottom: 40px;
+  height: 90px;
+}
+
+.item__description {
+  color: white;
+  width: 170px;
 }
