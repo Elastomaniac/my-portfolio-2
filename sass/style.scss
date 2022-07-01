@@ -11,6 +11,7 @@ body {
   width: $containerWidth;
   margin: 0 auto;
   width: 100%;
+  background: red;
 }
 
 .header {
@@ -357,47 +358,45 @@ input {
 }
 
 .quality {
-  margin-bottom: 300px;
-  &__top {
+  &__wrapper {
+    padding: 35px 90px 90px;
     background-image: url("../img/fon.jpeg");
-    padding: 35px 0px 70px 0px;
-    background-repeat: no-repeat;
-    margin-top: 54px;
+    background-repeat: no-repeat;;
     background-size: cover;
-    margin-bottom: 56px;
-    @media screen and (max-width: 992px) {
-      width: 880px;
-      height: 670px;
-    }
   }
+
+  &__header {
+    margin-bottom: 60px;
+  }
+
   &__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
     @media screen and (max-width: 992px) {
       flex-wrap: wrap;
       padding-top: 184px;
     }
+
     &-item {
+      width: 200px;
       text-align: center;
-      margin-left: 51px;
+      margin-right: 50px;
     }
   }
-  &__title {
-    text-align: center;
-    margin-bottom: 55px;
-  }
-  &__btn {
-    background-color: $colorBlue;
+}
+
+.order__button {
+  background-color: $colorBlue;
+  color: white;
+  border-radius: 3px;
+  padding: 12px 35px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  & img {
     color: white;
-    border-radius: 3px;
-    padding: 12px 35px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    & img {
-      color: white;
-      margin-right: 22px;
-    }
+    margin-right: 22px;
   }
 }
 
