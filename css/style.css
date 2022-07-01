@@ -300,6 +300,11 @@ input {
   height: 460px;
   display: flex;
 }
+@media screen and (max-width: 992px) {
+  .production__card {
+    width: 992px;
+  }
+}
 .production__image {
   width: 570px;
   height: 460px;
