@@ -3,6 +3,10 @@ $colorBlue: #3B3A63;
 $colorDarkBlue: #2F2F51;
 $containerWidth: min-width 1200px;
 
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background: #F2F2F2;
 }
@@ -363,6 +367,7 @@ input {
     background-repeat: no-repeat;;
     background-size: cover;
     text-align: center;
+    
   }
 
   &__header {
