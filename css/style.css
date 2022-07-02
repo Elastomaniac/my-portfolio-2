@@ -92,24 +92,24 @@ a {
   line-height: 28px;
 }
 
-.left {
+.main-info__description {
   padding: 60px 52px 0px 85px;
   position: relative;
 }
-.left__advantages {
+.main-info__description .description__advantages {
   display: flex;
   position: absolute;
   top: 180px;
 }
 @media screen and (max-width: 992px) {
-  .left__advantages {
+  .main-info__description .description__advantages {
     position: static;
     width: 630px;
     height: 562px;
     margin-top: 18px;
   }
 }
-.left__title {
+.main-info__description .main-info__title {
   font-weight: 100;
   font-size: 36px;
   line-height: 42.19px;

@@ -100,21 +100,21 @@ a {
   }
 }
 
-.left {
+.main-info__description {
   padding: 60px 52px 0px 85px;
   position: relative;
-  &__advantages {
-    display: flex;
-    position: absolute;
-    top: 180px;
-    @media screen and (max-width: 992px) {
-     position: static;
-     width: 630px;
-     height: 562px;
-     margin-top: 18px;
+    .description__advantages {
+      display: flex;
+      position: absolute;
+      top: 180px;
+      @media screen and (max-width: 992px) {
+      position: static;
+      width: 630px;
+      height: 562px;
+      margin-top: 18px;
     }
   }
-  &__title {
+  .main-info__title {
     font-weight: 100;
     font-size: 36px;
     line-height: 42.19px;
