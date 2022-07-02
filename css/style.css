@@ -116,11 +116,11 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-  .right {
+  .main-info__form {
     display: none;
   }
 }
-.right__feedback {
+.main-info__form .form__feedback {
   position: relative;
   background: #fff;
   border-radius: 10px;
@@ -129,21 +129,21 @@ a {
   padding: 43px 40px 65px 40px;
   text-align: center;
 }
-.right__feedback_image {
+.main-info__form .form__feedback_image {
   position: absolute;
   left: -102px;
   bottom: -80px;
   min-width: 745px;
 }
-.right__feedback__title {
+.main-info__form .form__feedback-title {
   font-size: 18px;
   color: #2F2F51;
 }
-.right__feedback-inputs {
+.main-info__form .form__feedback-inputs {
   margin-top: 27px;
   margin-bottom: 24px;
 }
-.right__feedback-button {
+.main-info__form .form__feedback-button {
   padding: 19px 40px;
   background: #EF7F04;
   border-radius: 3px;

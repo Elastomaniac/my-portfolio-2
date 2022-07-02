@@ -121,11 +121,11 @@ a {
   }
 }
 
-.right{
+.main-info__form{
   @media screen and (max-width: 992px) {
     display: none;
   }
-  &__feedback {
+  .form__feedback {
     position: relative;
     background: #fff;
     border-radius: 10px;
@@ -139,7 +139,7 @@ a {
       bottom: -80px;
       min-width: 745px;
     }
-    &__title {
+    &-title {
       font-size: 18px;
       color: $colorDarkBlue;
     }
