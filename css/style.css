@@ -382,6 +382,7 @@ input {
   align-items: center;
   margin: 0 auto;
   margin-top: 29px;
+  margin-bottom: 95.5px;
 }
 .order__button img {
   color: white;
@@ -396,4 +397,46 @@ input {
 .item__description {
   color: white;
   width: 170px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about__title {
+  font-weight: 700;
+}
+
+.about-advantages__item .item__icon {
+  margin-bottom: 0;
+}
+
+.about-advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 992px) {
+  .about-advantages {
+    justify-content: center;
+  }
+}
+
+.about-advantages__items {
+  width: 32%;
+  display: flex;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 992px) {
+  .about-advantages__items {
+    width: 40%;
+  }
+}
+
+.item__block {
+  margin-left: 24px;
+}
+
+.item__block-title {
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
