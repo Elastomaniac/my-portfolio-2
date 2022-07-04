@@ -426,11 +426,47 @@ input {
 
 .about__title {
   font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-tabs__list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-tab {
+  margin-left: 30px;
 }
 
 .about-advantages__item .item__icon {
   margin-bottom: 0;
 }
+
+.about__block {
+display: flex;
+}
+
+.about__block_text {
+  margin: 65.5px 52px 0px 248px
+}
+
+
+
+.about-tabs__list {
+  margin-bottom: 35px;
+}
+
+.about-tab:hover {
+    background: $colorOrange;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    a {
+    color: white;
+    }
+}
+
 
 .about-advantages {
   display: flex;
@@ -456,4 +492,20 @@ input {
 
 .item__block-title {
   margin-bottom: 15px;
+}
+
+.about__order {
+  margin: 0 auto;
+}
+.about__button {
+  width: 312px;
+  height: 54.5px;
+  background-color: #EF7F1A;
+  .about__button_icon {
+    margin-right: 23.69px;
+  }
+}
+
+.about__link {
+  color: white;
 }
