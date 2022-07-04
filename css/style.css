@@ -472,6 +472,8 @@ input {
 
 .item__block-title {
   margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #2F2F51;
 }
 
 .about__order {
