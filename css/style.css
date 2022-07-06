@@ -410,9 +410,21 @@ input {
 .about-tabs__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 35px;
+  height: 40px;
+  align-items: center;
 }
 .about-tabs__list .about-tab {
   margin-left: 30px;
+}
+
+.about-tab:hover {
+  background: #EF7F04;
+  font-weight: 700;
+  line-height: 21px;
+}
+.about-tab:hover a {
+  color: white;
 }
 
 .about-advantages__item .item__icon {
@@ -421,24 +433,57 @@ input {
 
 .about__block {
   display: flex;
+  max-height: 461px;
+  height: 461px;
+}
+@media screen and (max-width: 768px) {
+  .about__block {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__block {
+    flex-direction: column;
+  }
+}
+
+.about__block_image {
+  background-image: url("../img/about__block_image.jpeg") no-repeat;
+  height: 461px;
+  margin: auto;
+  min-width: 600px;
+}
+@media screen and (max-width: 1224px) {
+  .about__block_image {
+    margin-left: 40px;
+  }
+}
+.about__block_image .about__block_left {
+  max-height: 461px;
+  height: 461px;
+  display: flex;
 }
 
 .about__block_text {
   margin: 65.5px 52px 0px 248px;
+  max-height: 461px;
+  height: 461px;
 }
-
-.about-tabs__list {
-  margin-bottom: 35px;
+@media screen and (max-width: 1224px) {
+  .about__block_text {
+    margin-left: 40px;
+  }
 }
-
-.about-tab:hover {
-  background: #EF7F04;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
+@media screen and (max-width: 768px) {
+  .about__block_text {
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
 }
-.about-tab:hover a {
-  color: white;
+@media screen and (max-width: 320px) {
+  .about__block_text {
+    margin-left: 80px;
+  }
 }
 
 .about-advantages {
