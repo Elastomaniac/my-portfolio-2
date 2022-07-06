@@ -82,7 +82,7 @@ a {
 }
 
 .main {
-  background-image: url("../img/mainFon.jpeg");
+  background-image: url("img/mainFon.jpeg");
   padding-bottom: 65px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,7 +207,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     margin-top: 48px;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1024px) {
      justify-content: center; 
     }
   }
@@ -224,23 +224,23 @@ input {
 
     &_1
       {
-   background-image: url("../img/img1.jpeg");
+   background-image: url("img/img1.jpeg");
     }
 
     &_2
       {
-   background-image: url("../img/img2.jpeg");
+   background-image: url("img/img2.jpeg");
     }
 
     &_3
       {
-   background-image: url("../img/img3.jpeg");
+   background-image: url("img/img3.jpeg");
    background-size: cover;
     }
 
     &_4
       {
-   background-image: url("../img/img4.jpeg");
+   background-image: url("img/img4.jpeg");
    background-size: cover;
     }
   }
@@ -317,16 +317,14 @@ input {
 
 .production {
    &__card{
-    width: 1200px;
-    height: 460px;
     display: flex;
-    @media screen and (max-width: 992px) {
-      width: 992px;
+    @media screen and (max-width: 1024px) {
+      display: flex;
+      flex-direction: column;
     }
   }
 
   &__image {
-    width: 570px;
     height: 460px;
     border-radius: 3px;
     @media screen and (max-width: 992px) {
@@ -338,7 +336,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 511px;
     height: 335px;
     padding-left: 35px;
     padding-top:74px;
@@ -363,7 +360,7 @@ input {
 .quality {
   &__wrapper {
     padding: 35px 90px 90px;
-    background-image: url("../img/fon.jpeg");
+    background-image: url("img/fon.jpeg");
     background-repeat: no-repeat;;
     background-size: cover;
     text-align: center;
@@ -454,8 +451,10 @@ input {
 
 .about__block {
   display: flex;
-  max-height: 461px;
-  height: 461px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -468,13 +467,10 @@ input {
 }
 
 .about__block_image {
-  background-image: url("../img/about__block_image.jpeg") no-repeat;
-  height: 461px;
-  margin: auto;
-  min-width: 600px;
 
   @media screen and (max-width: 1224px) {
     margin-left: 40px;
+    margin: auto;
   }
 
   .about__block_left {
@@ -491,6 +487,8 @@ input {
 
   @media screen and (max-width: 1224px) {
     margin-left: 40px;
+    height: fit-content;
+    margin-bottom: 40px;
   }
 
   @media screen and (max-width: 768px) {
