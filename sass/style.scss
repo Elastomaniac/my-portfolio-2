@@ -607,4 +607,12 @@ input {
   display: block;
   cursor: pointer;
   margin-bottom: 10px;
+  position: relative;
+
+}
+
+.angle {
+  position: absolute;
+  top: 8px;
+  right: 36px;
 }
