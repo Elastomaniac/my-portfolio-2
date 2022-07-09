@@ -435,6 +435,9 @@ input {
     align-items: center;
     .about-tab {
       margin-left: 30px;
+      padding: 4px;
+      min-width: 120px;
+      width: 120px;
     }
   }
 }
@@ -513,6 +516,7 @@ input {
   @media screen and (max-width: 992px) {
     justify-content: center;
   }
+
   &__items {
     width: 32%;
     display: flex;
