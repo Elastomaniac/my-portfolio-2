@@ -590,6 +590,9 @@ input {
   margin-bottom: 10px;
   position: relative;
 }
+.answers__questions-title:hover {
+  color: #EF7F04;
+}
 
 .angle {
   position: absolute;

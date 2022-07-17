@@ -612,7 +612,9 @@ input {
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
-
+  &:hover {
+    color: #EF7F04;
+  }
 }
 
 .angle {
