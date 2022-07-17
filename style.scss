@@ -82,7 +82,7 @@ a {
 }
 
 .main {
-  background-image: url("../img/mainFon.jpeg");
+  background-image: url("img/mainFon.jpeg");
   padding-bottom: 65px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -207,7 +207,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     margin-top: 48px;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1024px) {
      justify-content: center; 
     }
   }
@@ -224,23 +224,23 @@ input {
 
     &_1
       {
-   background-image: url("../img/img1.jpeg");
+   background-image: url("img/img1.jpeg");
     }
 
     &_2
       {
-   background-image: url("../img/img2.jpeg");
+   background-image: url("img/img2.jpeg");
     }
 
     &_3
       {
-   background-image: url("../img/img3.jpeg");
+   background-image: url("img/img3.jpeg");
    background-size: cover;
     }
 
     &_4
       {
-   background-image: url("../img/img4.jpeg");
+   background-image: url("img/img4.jpeg");
    background-size: cover;
     }
   }
@@ -317,16 +317,14 @@ input {
 
 .production {
    &__card{
-    width: 1200px;
-    height: 460px;
     display: flex;
-    @media screen and (max-width: 992px) {
-      width: 992px;
+    @media screen and (max-width: 1024px) {
+      display: flex;
+      flex-direction: column;
     }
   }
 
   &__image {
-    width: 570px;
     height: 460px;
     border-radius: 3px;
     @media screen and (max-width: 992px) {
@@ -338,7 +336,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 511px;
     height: 335px;
     padding-left: 35px;
     padding-top:74px;
@@ -363,7 +360,7 @@ input {
 .quality {
   &__wrapper {
     padding: 35px 90px 90px;
-    background-image: url("../img/fon.jpeg");
+    background-image: url("img/fon.jpeg");
     background-repeat: no-repeat;;
     background-size: cover;
     text-align: center;
@@ -435,9 +432,6 @@ input {
     align-items: center;
     .about-tab {
       margin-left: 30px;
-      padding: 4px;
-      min-width: 120px;
-      width: 120px;
     }
   }
 }
@@ -457,8 +451,10 @@ input {
 
 .about__block {
   display: flex;
-  max-height: 461px;
-  height: 461px;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -471,13 +467,10 @@ input {
 }
 
 .about__block_image {
-  background-image: url("../img/about__block_image.jpeg") no-repeat;
-  height: 461px;
-  margin: auto;
-  min-width: 600px;
 
   @media screen and (max-width: 1224px) {
     margin-left: 40px;
+    margin: auto;
   }
 
   .about__block_left {
@@ -494,6 +487,8 @@ input {
 
   @media screen and (max-width: 1224px) {
     margin-left: 40px;
+    height: fit-content;
+    margin-bottom: 40px;
   }
 
   @media screen and (max-width: 768px) {
@@ -516,7 +511,6 @@ input {
   @media screen and (max-width: 992px) {
     justify-content: center;
   }
-
   &__items {
     width: 32%;
     display: flex;
@@ -550,75 +544,4 @@ input {
 
 .about__link {
   color: white;
-}
-
-
-.portfolio {
-  background-color: #fff;
-  padding: 48px 0 70px 0;
-
-  &__title {
-    text-align: center;
-    font-size: 24px;
-    color: #2F2F51;
-    margin-bottom: 48px;
-  }
-
-  &__items {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  &__items-photo {
-    margin-right: 44px;
-  }
-
-  &__items-photo:last-child {
-    @media screen and (max-width: 1224px) {
-      display: none;
-    }
-  }
-}
-
-
-
-.answers {
-  background-color: #EF7F1A;
-  padding: 40px 100px 64px 100px;
-  margin-bottom: 400px;
-  @media screen and (max-width: 1224px) {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
-
-.answers__title {
-  text-align: center;
-  font-size: 24px;
-  color: white;
-  margin-bottom: 50px;
-}
-
-.answers__questions-block {
-  color: #2F2F51;
-  padding: 30px 0px 30px 19px;
-  background-color: #EEEEF3;
-  margin-bottom: 15px;
-}
-
-.answers__questions-title {
-  display: block;
-  cursor: pointer;
-  margin-bottom: 10px;
-  position: relative;
-  &:hover {
-    color: #EF7F04;
-  }
-}
-
-.angle {
-  position: absolute;
-  top: 8px;
-  right: 36px;
 }

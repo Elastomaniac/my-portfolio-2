@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
   <title>Макет1</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -11,6 +14,7 @@
 <body>
   <header class="header">
     <div class="header__container container">
+      <a href=""><img src="./img/bourger.svg" alt="" class="header__bourger"></a>
       <img src="./img/logo.png" alt="Логотип" />
 
       <nav>
@@ -42,32 +46,32 @@
   <main class="main">
     <div class="container">
       <div class="main-info">
-        <div class="main-info__left left">
-          <h1 class="left__title">
+        <div class="main-info__description">
+          <h1 class="description__title">
             <span class="main-info__title">Окна Хаус -  </span><br>Профессиональный подход к остеклению
           </h1>
-          <div class="left__advantages">
-            <div class="left__advantages-item">
+          <div class="description__advantages">
+            <div class="description__advantages-item">
               <img src="./img/main1.svg" alt="" class="left__advantages-icon">
-              <p class="left__advantages-description">Современные окна и балконные конструкции по доступным ценам</p>
+              <p class="description__advantages-text">Современные окна и балконные конструкции по доступным ценам</p>
             </div>
 
-            <div class="left__advantages-item">
-              <img src="./img/main2.svg" alt="" class="left__advantages-icon">
-              <p class="left__advantages-description">Квалифицированный подход к решению задач любой сложности</p>
+            <div class="description__advantages-item">
+              <img src="./img/main2.svg" alt="" class="escription__advantages-icon">
+              <p class="description__advantages-text">Квалифицированный подход к решению задач любой сложности</p>
             </div>
 
-            <div class="left__advantages-item">
+            <div class="description__advantages-item">
               <img src="./img/main3.svg" alt="" class="left__advantages-icon">
-              <p class="left__advantages-description">Гарантия высочайшего качества нашей продукции</p>
+              <p class="description__advantages-text">Гарантия высочайшего качества нашей продукции</p>
             </div>
 
           </div>
         </div>
-        <div class="main-info__right right">
-          <form action="" class="right__feedback">
-            <h2 class="right__feedback-title">Вызвать замершика на дом</h2>
-            <div class="right__feedback-inputs input">
+        <div class="main-info__form">
+          <form action="" class="form__feedback">
+            <h2 class="form__feedback-title">Вызвать замершика на дом</h2>
+            <div class="form__feedback-inputs input">
               <input class="input__item" type="text" placeholder="Представьтесь, пожалуйста">
               <input class="input__item" type="text" placeholder="Номер телефона">
               <input class="input__item" type="text" placeholder="E-mail">
@@ -76,9 +80,9 @@
               </div>
             </div>
 
-            <button class="right__feedback-button">Отправить заявку</button>
+            <button class="form__feedback-button">Отправить заявку</button>
 
-            <img class="right__feedback_image" src="./img/rulette.png" alt="">
+            <img class="form__feedback_image" src="./img/rulette.png" alt="">
           </form>
         </div>
       </div>
@@ -131,6 +135,7 @@
     </div>
   </div>
 
+
   <div class="production">
     <div class="production__title"><h2>Продукция</h2></div>
     <div class="production__list">
@@ -158,45 +163,177 @@
     </div>
   </div>
 
-  <div class="container">
-    <section class="quality">
-      <div class="quality__top">
-        <div class="quality__title">
-          <img src="./img/schtandart.svg" alt="">
+
+  <section class="quality__wrapper">
+    <div class="quality__header">
+      <img src="./img/schtandart.svg" alt="">
+    </div>
+    <div class="quality__content">
+      <div class="quality__list">
+        <div class="quality__list-item">
+          <img src="./img/1sch.svg" alt="" class="item__icon">
+          <p class="item__description">Сертифицированный производитель Rehau </p>
+        </div>
+        <div class="quality__list-item">
+          <img src="./img/2sch.svg" alt="" class="item__icon">
+          <p class="item__description">Инновационный оконный завод</p>
         </div>
 
-        <div class="quality__list">
-          <div class="quality__list-item item">
-            <img src="./img/1sch.svg" alt="" class="item__icon">
-            <p class="item__description">Сертифицированный производитель Rehau </p>
-          </div>
+        <div class="quality__list-item">
+          <img src="./img/3sch.svg" alt="" class="item__icon">
+          <p class="item__description">Лидер по переработке профилей Rehau в России</p>
+        </div>
 
-          <div class="quality__list-item item">
-            <img src="./img/2sch.svg" alt="" class="item__icon">
-            <p class="item__description">Инновационный оконный завод</p>
-          </div>
+        <div class="quality__list-item">
+          <img src="./img/4sch.svg" alt="" class="item__icon">
+          <p class="item__description">Высокотехнологичное автоматизированное оборудование</p>
+        </div>
 
-          <div class="quality__list-item item">
-            <img src="./img/3sch.svg" alt="" class="item__icon">
-            <p class="item__description">Лидер по переработке профилей Rehau в России</p>
-          </div>
+        <div class="quality__list-item">
+          <img src="./img/5sch.svg" alt="" class="item__icon">
+          <p class="item__description">Широкий ассортимент продукции</p>
+        </div>
 
-          <div class="quality__list-item item">
-            <img src="./img/4sch.svg" alt="" class="item__icon">
-            <p class="item__description">Высокотехнологичное автоматизированное оборудование</p>
-          </div>
+      </div>
+    </div>
+  </section>
 
-          <div class="quality__list-item item">
-            <img src="./img/5sch.svg" alt="" class="item__icon">
-            <p class="item__description">Широкий ассортимент продукции</p>
-          </div>
 
+  <button class="order__button">
+    <img src="./img/qualityIconBtn.svg" alt="">Заказать расчет
+  </button>
+
+
+  <div class="container">
+    <div class="about">
+      <h2 class="about__title">О компании</h2>
+      <div class="about-tabs">
+        <ul class="about-tabs__list">
+          <li class="about-tab"><a href="">Описание</a></li>
+          <li class="about-tab"><a href="">Как мы работаем</a></li>
+          <li class="about-tab"><a href="">Отзывы</a></li>
+          <li class="about-tab"><a href="">Сертификаты</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="about__block">
+        <div class="about__block_left">
+          <div class="about__block_logo">
+            <img src="./img/about__block_logo.svg" alt="">
+          </div>
+          <div class="about__block_text">Мы помогаем клиентам подбирать решения, учитывая пожежелания к характеристикам окна и его стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.</div>
+        </div>
+        <div class="about__block_image">
+          <img src="./img/about__block_image.jpeg" alt="">
         </div>
       </div>
-      <button class="quality__btn">
-        <img src="./img/qualityIconBtn.svg" alt="">Заказать расчет
-      </button>
-    </section>
+    </div>
+
+    <div class="about-advantages">
+
+      <div class="about-advantages__items item">
+        <img src="./img/about1.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">профессионализм
+            </div>
+          <div class="item__block-description"><span class="item__block_text">Бригада профессиональных мастеров по монтажу и обслуживанию</span></div>
+        </div>
+      </div>
+
+      <div class="about-advantages__items item">
+        <img src="./img/about2.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">Ценообразование
+            </div>
+          <div class="item__block-description">Лучшие цены на рынке пластиковых окон</div>
+        </div>
+      </div>
+
+      <div class="about-advantages__items item">
+        <img src="./img/about3.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">Мобильность 
+            </div>
+          <div class="item__block-description">Заключение договора на дому</div>
+        </div>
+      </div>
+
+      <div class="about-advantages__items item">
+        <img src="./img/about4.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">Лояльность
+            </div>
+          <div class="item__block-description">99% клиентов рекомендуют нас своим друзьям</div>
+        </div>
+      </div>
+
+      <div class="about-advantages__items item">
+        <img src="./img/about5.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">Скорость</div>
+          <div class="item__block-description">Короткие сроки установки изделий</div>
+        </div>
+      </div>
+
+      <div class="about-advantages__items item">
+        <img src="./img/about6.svg" alt="" class="item__icon">
+        <div class="item__block">
+          <div class="item__block-title">Служба качества
+            </div>
+          <div class="item__block-description">Безупречное качество и контроль изделий ПВХ</div>
+        </div>
+      </div>
+
+      <div class="about__order">
+        <button class="about__button"><img class="about__button_icon" src="./img/about__button_icon.svg" alt=""><a class="about__link">Оформить заявку на замер</a></button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="portfolio">
+      <h2 class="portfolio__title">Портфолио</h2>
+      <div class="portfolio__items">
+        <img src="./img/portfolio__item1.jpeg" alt="" class="portfolio__items-photo">
+        <img src="./img/portfolio__item2.jpeg" alt="" class="portfolio__items-photo">
+        <img src="./img/portfolio__item3.jpeg" alt="" class="portfolio__items-photo">
+        <img src="./img/portfolio__item4.jpeg" alt="" class="portfolio__items-photo"></div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="answers">
+      <h2 class="answers__title">Вопрос-ответ</h2>
+      <div class="answers__questions">
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Сколько по времени занимает изготовление пластиковых окон?<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Какие существуют способы оплаты?<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Где я могу посмотреть образцы?<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Зачем вызывать замерщика? Я могу дать размеры<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Хотелось бы отделать балкон. Поможете?<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+
+        <details class="answers__questions-block">
+          <summary class="answers__questions-title">Мне надо нанимать грузчиков для подъема?<img src="./img/angle_for_questions.svg" alt="" class="angle"></summary> Нет, команда мастеров все сами аккуратно доставят и внесут.
+        </details>
+      </div>
+    </div>
   </div>
 </body>
 </html>
