@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body * {
   font-family: "Roboto", sans-serif;
 }
@@ -598,4 +602,93 @@ input {
   position: absolute;
   top: 8px;
   right: 36px;
+}
+
+.contacts {
+  margin-bottom: 400px;
+  display: flex;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 24px;
+  color: #2F2F51;
+}
+
+.contacts-info, .contacts-form {
+  width: 50%;
+}
+
+.contacts-info {
+  position: relative;
+}
+
+.contact-fon {
+  position: absolute;
+}
+
+.contacts-info__title {
+  font-size: 18px;
+  color: #2F2F51;
+  margin-bottom: 18px;
+}
+
+.contact-info__numbers {
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.number__item:first-child {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.number__item-phone {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+
+.number__item-icon {
+  margin-right: 26px;
+}
+
+.number__item-phone:hover {
+  text-decoration: underline;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list__item-icon {
+  margin-right: 26px;
+}
+
+.item__descr {
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+
+.contacts-info__list {
+  margin-bottom: 58px;
+}
+
+.contacts-info__description {
+  width: 230px;
+}
+
+.item__socials img {
+  margin-right: 10px;
+}
+
+.form {
+  width: 510px;
+  height: 565px;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
